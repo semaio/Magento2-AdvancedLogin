@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Rouven Alexander Rieker
+ * See LICENSE.md bundled with this module for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customer>
+            <advancedlogin>
+                <login_mode>0</login_mode>
+                <login_attribute>customer_number</login_attribute>
+            </advancedlogin>
+        </customer>
+    </default>
+</config>
