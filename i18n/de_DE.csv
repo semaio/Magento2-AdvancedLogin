@@ -4,3 +4,6 @@
 "Login via customer attribute and email","Login via Kunden-Attribut und E-Mail"
 "Login Attribute","Login-Attribut"
 "Customer attribute which is used for customer login.","Kunden-Attribut, das für den Kundenlogin verwendet wird."
+"Customer Number","Kundennummer"
+"Email","E-Mail"
+"Email / Customer Number","E-Mail / Kundennummer"

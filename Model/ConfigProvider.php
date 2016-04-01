@@ -17,6 +17,7 @@ class ConfigProvider
 {
     const XML_PATH_ADVANCEDLOGIN_LOGIN_MODE = 'customer/advancedlogin/login_mode';
     const XML_PATH_ADVANCEDLOGIN_LOGIN_ATTRIBUTE = 'customer/advancedlogin/login_attribute';
+    const XML_PATH_ADVANCEDLOGIN_LOGIN_ATTRIBUTE_LABEL = 'customer/advancedlogin/login_attribute_label';
     const XML_PATH_CUSTOMER_ACCOUNT_SHARE_SCOPE = 'customer/account_share/scope';
 
     /**
@@ -75,5 +76,15 @@ class ConfigProvider
         }
 
         return $attribute;
+    }
+
+    /**
+     * Retrieve the customer attribute label
+     *
+     * @return string
+     */
+    public function getLoginAttributeLabel()
+    {
+        return (string)$this->scopeConfig->getValue(self::XML_PATH_ADVANCEDLOGIN_LOGIN_ATTRIBUTE_LABEL);
     }
 }

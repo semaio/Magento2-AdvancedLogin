@@ -18,6 +18,10 @@
                     <label>Login Attribute</label>
                     <comment>Customer attribute which is used for customer login.</comment>
                 </field>
+                <field id="login_attribute_label" translate="label comment" type="text" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Login Attribute Label</label>
+                    <comment>Label which is used as label for the email field in customer login.</comment>
+                </field>
             </group>
         </section>
     </system>
