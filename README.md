@@ -2,6 +2,10 @@
 
 This module enhances the customer login process in Magento 2.
 
+## Facts
+
+Version: 2.0.0
+
 ## Features
 
 ### Customer number
