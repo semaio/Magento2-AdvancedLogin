@@ -274,7 +274,7 @@ class AccountManagement extends CustomerAccountManagement
 
         // Add customer attribute filter
         $customerNumberFilter[] = $this->filterBuilder
-            ->setField('customer_number')
+            ->setField($this->advancedLoginConfigProvider->getLoginAttribute())
             ->setConditionType('eq')
             ->setValue($attributeValue)
             ->create();
